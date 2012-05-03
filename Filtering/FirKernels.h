@@ -1,0 +1,76 @@
+/************************************************************************************************
+
+  FirKernels.cpp - holds a series of simple Finite Impulse Response filter functions
+		to do basic and decimating FIR filtering in C++.  Written specifically for 
+		the BIC project to be included within data capture software for on-line processing.
+		Want to reduce MATLAB work because of the awkwardness of the interface.
+
+
+  Routines: FirBasic(int iFirLength, int iSignalLength, double* dFilter, 
+				double* dSignalSource, double* dOut)	// Basic FIR filter using user supplied storage
+			FirDecimate(int iFirLength, int iSignalLength, int iStride, double* dFilter, 
+				double* dSignalSource, double* dOut)	// Decimating FIR filter using user supplied storage
+
+  Modified June 2010 for addition into RTVT Project
+
+  *********************************************************************************************/
+#ifndef FIRKERNELS_HN
+#define FIRKERNELS_HN
+
+#include <QtGui>
+#include <QObject>
+#include "../rtvtglobaldefinitions.h"
+
+
+#ifdef M4B
+	#define SENSORGAIN		146.0	// for M4b
+#endif
+
+#ifdef PEARL
+	#define SENSORGAIN		200.0	// for Pearl
+#endif
+
+class FirKernels :  public QObject  {
+	Q_OBJECT
+public:
+	FirKernels(void) {
+		iFilterSize = -1;	// Default return of filter size if invalid or not loaded
+		dScaleFactor = 2.4/(4096*((double) SENSORGAIN));
+		iDecimateDataFlag = 0;
+		iStride = 1;
+		iValidFilterDataFlag = 0;
+		iValidPostFilterFlag = 0; };	// Constructor initializes variables
+
+	int FirBasic(int iFirLength, int iSignalLength, double* dFilter, 
+				double* dSignalSource, double* dOut, double *Max, double *Min);	// Basic FIR filter using user supplied storage
+	int FirDecimate(int iFirLength, int iSignalLength, int iStride, double* dFilter, 
+				double* dSignalSource, double* dOut, double *Max, double *Min);	// Decimating FIR filter using user supplied storage
+
+	int SetFilterData(char *czFiltFileName);	// Opens file of fir filter data and loads into local storage
+	int SetPostDecimFilterData(char *czFiltFileName);	// Opens file of fir filter data and loads into local storage
+	// Specialized for unscaled, post-decimation filter
+	// Returns 0 success, 1 for file open error and 2 for bad data
+	int GetFilterFileName(char *czFiltFileName);	// Gets the last filter file name for FileIt
+		// Returns 0 for ok name and 1 for no name set
+	int GetFilterLen(void);	// Returns length of filter loaded by SetFilterData(); -1 if not loaded
+	int SetFilterType(int iDecimateData, int iStride);	// Sets flag to call decimating filter
+	void GetFilterInfo(int *iDecimateData, int *iStride, int *iPostFilterFlag, QString *p_csPostFilterFileName);	// Returns decimation info for dialog 
+	int ApplyFilter(int iSignalLength, double *dSignalSource, double *dOut, double *Max, double *Min); // Applies
+				// predefined filter by calling FirBasic or FirDecimate as set by iDecimateDataFlag
+private:
+	double dFilterData[501], dPostDecimFilterData[201];	// Storage space for as much as 501 point main fir filter and 201 point post filter
+	int iFilterSize, iPostFilterSize;	// Cleared in constructor; set by SetFilterData()
+	double dScaleFactor;
+	int iStride;		// Filled by SetFilterData if decimating
+	int iDecimateDataFlag;		// Flag that set causes call to decimating filter; clear on start 
+	int iValidFilterDataFlag, iValidPostFilterFlag;	// Flags that set == 1 implies successful load of filter data and name
+	int FirBasicApply(int iSignalLength, double *dSignalSource, double *dOut, double *Max, double *Min);	// Call to FirBasic
+		// using the filter defined by SetFilterData()
+	int FirDecimateApply(int iSignalLength, double *dSignalSource, double *dOut, double *Max, double *Min);	
+		// Call to decimating filter using the filter defined by SetFilterData()
+							// set with SetFiltType().
+	char czFilterFileName[512];	// Place where filter file name is kept.  Read through GetFilterName()
+		// for use by FileIt in generating headers for output data.
+	};
+
+#endif

@@ -1,0 +1,50 @@
+#ifndef RTVTHUDWAVEVIEW_H
+#define RTVTHUDWAVEVIEW_H
+
+#include <QWidget>
+#include "../rtvttriggermodel.h"
+using namespace std;
+#include <fstream>
+
+namespace Ui {
+    class RTVTHUDWaveView;
+}
+
+class RTVTHUDWaveView : public QWidget {
+    Q_OBJECT
+public:
+    RTVTHUDWaveView(QWidget *parent = 0);
+    ~RTVTHUDWaveView();
+	Ui::RTVTHUDWaveView *ui;
+	
+	void setTableModel(RTVTTriggerModel *model);
+	
+	// IO
+	FILE *nevFile;
+
+public slots:
+	void clearWaveforms();
+	void resetTriggers();
+	void propogateNEVFile(bool);
+	void propogateSaveNEVToggle();
+	void setNEVFileLocation();
+	void propogateSetWaveCheckLength(int);
+       void thresholdTogetherBoxClicked(int);
+
+	// **** NEED TO FIX THESE SLOTS TO CLEAR WAVEFORMS AND COMMUNICATE BETWEEN OBJECTS ****/
+signals:
+	void clearWaveformButtonClicked();
+	void resetWaveformTriggersButtonClicked();
+	void saveToNEVFileCheckboxClicked(bool, char *);
+	void saveNEVToggleButtonState(bool state);
+	void updateWaveCheckValue(int inValue);
+       void controllerSaysMoveThresholdsTogether(bool yesNo);
+
+protected:
+    void changeEvent(QEvent *e);
+
+private:
+    
+};
+
+#endif // RTVTHUDWAVEVIEW_H

@@ -1,0 +1,1386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 34;
+	objects = {
+		D7BA7D76DAB5DD13389D6332 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Qmake";
+			neededFileNames = (
+				);
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/daborton/Documents/MacOS_RTVT_Development\ -f\ \'RTVT.pbproj/qt_makeqmake.mak\'";
+		};
+		1FD7C53B55E17FCEB987B7CD = {
+			isa = PBXFileReference;
+			name = "rtvtmainwindow.cpp";
+			path = "rtvtmainwindow.cpp";
+			refType = 4;
+		};
+		0588F9502B84E0C4AD1DAC09 = {
+			fileRef = "1FD7C53B55E17FCEB987B7CD";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		118FCBAABA162BA17933C789 = {
+			isa = PBXFileReference;
+			name = "main.cpp";
+			path = "main.cpp";
+			refType = 4;
+		};
+		2B093CA6F071B023A473CED0 = {
+			fileRef = "118FCBAABA162BA17933C789";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D044592EB16801BA490DE645 = {
+			isa = PBXFileReference;
+			name = "rtvtwaveviewerglwidget.cpp";
+			path = "rtvtwaveviewerglwidget.cpp";
+			refType = 4;
+		};
+		5528915EAF4BEF0FE76940D1 = {
+			fileRef = "D044592EB16801BA490DE645";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5F19817DA3B90F9E77E4B9D7 = {
+			isa = PBXFileReference;
+			name = "rtvtdataobject.cpp";
+			path = "rtvtdataobject.cpp";
+			refType = 4;
+		};
+		B65297E19454ADB128EA6474 = {
+			fileRef = "5F19817DA3B90F9E77E4B9D7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		14D6594A25905781581399B5 = {
+			isa = PBXFileReference;
+			name = "rtvtchannelwidget.cpp";
+			path = "rtvtchannelwidget.cpp";
+			refType = 4;
+		};
+		5C43AE1B666357205C104E8C = {
+			fileRef = "14D6594A25905781581399B5";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BB0E3EE38E32A51A9F16FCBE = {
+			isa = PBXFileReference;
+			name = "rtvtfiltercontroller.cpp";
+			path = "rtvtfiltercontroller.cpp";
+			refType = 4;
+		};
+		7D3AA3B721EA7EDE3B4B0F84 = {
+			fileRef = "BB0E3EE38E32A51A9F16FCBE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		31C273A3C91B023C2C360AA3 = {
+			isa = PBXFileReference;
+			name = "rtvtmockdatatransfer.cpp";
+			path = "rtvtmockdatatransfer.cpp";
+			refType = 4;
+		};
+		4CB363FB57CF8F54C134496B = {
+			fileRef = "31C273A3C91B023C2C360AA3";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3275B6B5A353405B97D8B8CB = {
+			isa = PBXFileReference;
+			name = "rtvtcontinuousviewerwidget.cpp";
+			path = "rtvtcontinuousviewerwidget.cpp";
+			refType = 4;
+		};
+		3808E6F5849C3FA927DA272E = {
+			fileRef = "3275B6B5A353405B97D8B8CB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AF7CC05BF031F6FB55858585 = {
+			isa = PBXFileReference;
+			name = "multipagewidget.cpp";
+			path = "multipagewidget.cpp";
+			refType = 4;
+		};
+		355EC0EB579172687ADE45FB = {
+			fileRef = "AF7CC05BF031F6FB55858585";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		42DABD6026D1DC5729BACD9C = {
+			isa = PBXFileReference;
+			name = "rtvthudwaveview.cpp";
+			path = "HUD_Plugins/rtvthudwaveview.cpp";
+			refType = 4;
+		};
+		6C9F43A1582557CDBF40E4CE = {
+			fileRef = "42DABD6026D1DC5729BACD9C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1AC9355551ED694020BA33F9 = {
+			isa = PBXFileReference;
+			name = "rtvthudcontrollerview.cpp";
+			path = "HUD_Plugins/rtvthudcontrollerview.cpp";
+			refType = 4;
+		};
+		C12B629735B184C3CFD2E0F9 = {
+			fileRef = "1AC9355551ED694020BA33F9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E603E2F4B2C40746C4012A4D = {
+			isa = PBXFileReference;
+			name = "bNEVwr.cpp";
+			path = "data_handling_plugins/bNEVwr.cpp";
+			refType = 4;
+		};
+		DF5E80FDE90F1314C714AB93 = {
+			fileRef = "E603E2F4B2C40746C4012A4D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D43C4118E40A25D8F019C0DA = {
+			isa = PBXFileReference;
+			name = "FirKernels.cpp";
+			path = "Filtering/FirKernels.cpp";
+			refType = 4;
+		};
+		29188EB9BCC75CA4EAA364BA = {
+			fileRef = "D43C4118E40A25D8F019C0DA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5D124C614AA3044FACBEA638 = {
+			isa = PBXFileReference;
+			name = "RTVTTimer.cpp";
+			path = "RTVTTimer.cpp";
+			refType = 4;
+		};
+		14838779B739073CAB655BE8 = {
+			fileRef = "5D124C614AA3044FACBEA638";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C32D7DD88318DB5D44D85228 = {
+			isa = PBXFileReference;
+			name = "audiooutput.cpp";
+			path = "External-Code/audiooutput.cpp";
+			refType = 4;
+		};
+		7D98B9EA8C51A4F27D999B4B = {
+			fileRef = "C32D7DD88318DB5D44D85228";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C6106AFEB2856CBC9A3B9E27 = {
+			isa = PBXFileReference;
+			name = "rtvttriggermodel.cpp";
+			path = "rtvttriggermodel.cpp";
+			refType = 4;
+		};
+		7DEAACC711D1494A4A417DC0 = {
+			fileRef = "C6106AFEB2856CBC9A3B9E27";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3772728577FF9508C0D34822 = {
+			isa = PBXFileReference;
+			name = "rtvtcontrolwindow.cpp";
+			path = "rtvtcontrolwindow.cpp";
+			refType = 4;
+		};
+		0FFF37CB21210F9A7CD5D4A2 = {
+			fileRef = "3772728577FF9508C0D34822";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		ECE5961416B52DB92CCAC37C = {
+			isa = PBXFileReference;
+			name = "fftreal_wrapper.cpp";
+			path = "External-Code/fftreal_wrapper.cpp";
+			refType = 4;
+		};
+		F68BEE298E099629FE1A3811 = {
+			fileRef = "ECE5961416B52DB92CCAC37C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		450492C84848F6051925C75E = {
+			isa = PBXFileReference;
+			name = "utils.cpp";
+			path = "External-Code/utils.cpp";
+			refType = 4;
+		};
+		BACD72FAE4BF5F2DDE5CBB6F = {
+			fileRef = "450492C84848F6051925C75E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C4C77B636589AAACCD282C18 = {
+			isa = PBXFileReference;
+			name = "rtvtplotwindow.cpp";
+			path = "rtvtplotwindow.cpp";
+			refType = 4;
+		};
+		3DB1D1EAB143D8B6482BED43 = {
+			fileRef = "C4C77B636589AAACCD282C18";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7FD1453529F07FD8539C3309 = {
+			isa = PBXFileReference;
+			name = "moc_rtvtmainwindow.cpp";
+			path = "moc_rtvtmainwindow.cpp";
+			refType = 4;
+		};
+		4CC808111502D12AF8EF8CA7 = {
+			fileRef = "7FD1453529F07FD8539C3309";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		66C5DC4029D66C112B0287A5 = {
+			isa = PBXFileReference;
+			name = "moc_rtvtwaveviewerglwidget.cpp";
+			path = "moc_rtvtwaveviewerglwidget.cpp";
+			refType = 4;
+		};
+		09C8052ACB4CD25FD63D2A9E = {
+			fileRef = "66C5DC4029D66C112B0287A5";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8495E3E4B16A528F06CEFCFF = {
+			isa = PBXFileReference;
+			name = "moc_rtvtchannelwidget.cpp";
+			path = "moc_rtvtchannelwidget.cpp";
+			refType = 4;
+		};
+		FD6D027B556258DCFE0BEA4C = {
+			fileRef = "8495E3E4B16A528F06CEFCFF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1D3D8797DD3776E0BCF9E3B8 = {
+			isa = PBXFileReference;
+			name = "moc_rtvtcontinuousviewerwidget.cpp";
+			path = "moc_rtvtcontinuousviewerwidget.cpp";
+			refType = 4;
+		};
+		AD166D70846E13619A240FF1 = {
+			fileRef = "1D3D8797DD3776E0BCF9E3B8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3827A0BF3000EF9CFA3E2B9A = {
+			isa = PBXFileReference;
+			name = "moc_multipagewidget.cpp";
+			path = "moc_multipagewidget.cpp";
+			refType = 4;
+		};
+		75A56D33522CEEEAA90D17AE = {
+			fileRef = "3827A0BF3000EF9CFA3E2B9A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		29A783A1F9515DE00A4B7211 = {
+			isa = PBXFileReference;
+			name = "moc_rtvthudwaveview.cpp";
+			path = "moc_rtvthudwaveview.cpp";
+			refType = 4;
+		};
+		1FC237E17D7EB15F5AF8F958 = {
+			fileRef = "29A783A1F9515DE00A4B7211";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		617044E7ED1DBE42E1E3F5EA = {
+			isa = PBXFileReference;
+			name = "moc_rtvthudcontrollerview.cpp";
+			path = "moc_rtvthudcontrollerview.cpp";
+			refType = 4;
+		};
+		E8A3C3C719E086A2A4CE569E = {
+			fileRef = "617044E7ED1DBE42E1E3F5EA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7306B2D6123507CD7A1CD681 = {
+			isa = PBXFileReference;
+			name = "moc_FirKernels.cpp";
+			path = "moc_FirKernels.cpp";
+			refType = 4;
+		};
+		6660D11FF73C8891B7B9C17E = {
+			fileRef = "7306B2D6123507CD7A1CD681";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FFC1B1E6310F375C4A929B8C = {
+			isa = PBXFileReference;
+			name = "moc_audiooutput.cpp";
+			path = "moc_audiooutput.cpp";
+			refType = 4;
+		};
+		8DA9F0372D89CA2652DB80B2 = {
+			fileRef = "FFC1B1E6310F375C4A929B8C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2FB0781AD2F335849587EA77 = {
+			isa = PBXFileReference;
+			name = "moc_rtvttriggermodel.cpp";
+			path = "moc_rtvttriggermodel.cpp";
+			refType = 4;
+		};
+		187271109309D2FFFE4C3DCD = {
+			fileRef = "2FB0781AD2F335849587EA77";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0170401211CA3E348C0CE347 = {
+			isa = PBXFileReference;
+			name = "moc_rtvtcontrolwindow.cpp";
+			path = "moc_rtvtcontrolwindow.cpp";
+			refType = 4;
+		};
+		83D025F49D75A54DC4707368 = {
+			fileRef = "0170401211CA3E348C0CE347";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DB82B1CE7D5551AB5F579BE5 = {
+			isa = PBXFileReference;
+			name = "moc_rtvtplotwindow.cpp";
+			path = "moc_rtvtplotwindow.cpp";
+			refType = 4;
+		};
+		EEFD362BE6530803313EB20A = {
+			fileRef = "DB82B1CE7D5551AB5F579BE5";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FCD2DCFADCA7BDAEB2CB1932 = {
+			isa = PBXFileReference;
+			name = "ui_rtvthudwaveview.h";
+			path = "ui_rtvthudwaveview.h";
+			refType = 4;
+		};
+		7469C1BE560D82289D1F3D1D = {
+			isa = PBXFileReference;
+			name = "ui_rtvthudcontrollerview.h";
+			path = "ui_rtvthudcontrollerview.h";
+			refType = 4;
+		};
+		D0DC16242AA83209CF51C19E = {
+			isa = PBXFileReference;
+			name = "ui_rtvtcontrolwindow.h";
+			path = "ui_rtvtcontrolwindow.h";
+			refType = 4;
+		};
+		B8F44F489C530D94B4A5BEB5 = {
+			isa = PBXFileReference;
+			name = "ui_rtvtplotwindow.h";
+			path = "ui_rtvtplotwindow.h";
+			refType = 4;
+		};
+		CE2FD53635540346CFA4F43D = {
+			isa = PBXFileReference;
+			name = "rtvtmainwindow.h";
+			path = "rtvtmainwindow.h";
+			refType = 4;
+		};
+		86CE470B4AA83EED0DD5BBCE = {
+			isa = PBXFileReference;
+			name = "rtvtdataobject.h";
+			path = "rtvtdataobject.h";
+			refType = 4;
+		};
+		3112E9BD6F0A80FB82EEC405 = {
+			isa = PBXFileReference;
+			name = "rtvtwaveviewerglwidget.h";
+			path = "rtvtwaveviewerglwidget.h";
+			refType = 4;
+		};
+		8300CA3C1FF4425798F15D68 = {
+			isa = PBXFileReference;
+			name = "rtvtglobaldefinitions.h";
+			path = "rtvtglobaldefinitions.h";
+			refType = 4;
+		};
+		76EEC80CD1C7DA8419888168 = {
+			isa = PBXFileReference;
+			name = "rtvtchannelwidget.h";
+			path = "rtvtchannelwidget.h";
+			refType = 4;
+		};
+		D9EFEF7F5271EFA6647F727E = {
+			isa = PBXFileReference;
+			name = "rtvtfiltercontroller.h";
+			path = "rtvtfiltercontroller.h";
+			refType = 4;
+		};
+		AC9D2B5661F66AD5DD6F3589 = {
+			isa = PBXFileReference;
+			name = "rtvtmockdatatransfer.h";
+			path = "rtvtmockdatatransfer.h";
+			refType = 4;
+		};
+		464F2BC78F826151B1EDC566 = {
+			isa = PBXFileReference;
+			name = "rtvtcontinuousviewerwidget.h";
+			path = "rtvtcontinuousviewerwidget.h";
+			refType = 4;
+		};
+		118268ADF88EA7505207017E = {
+			isa = PBXFileReference;
+			name = "multipagewidget.h";
+			path = "multipagewidget.h";
+			refType = 4;
+		};
+		F1808D34D00E04BF16A2675C = {
+			isa = PBXFileReference;
+			name = "rtvthudwaveview.h";
+			path = "HUD_Plugins/rtvthudwaveview.h";
+			refType = 4;
+		};
+		F397852D34C104E0934DBBC3 = {
+			isa = PBXFileReference;
+			name = "rtvthudcontrollerview.h";
+			path = "HUD_Plugins/rtvthudcontrollerview.h";
+			refType = 4;
+		};
+		2DF6427B31F3182D026C4916 = {
+			isa = PBXFileReference;
+			name = "bNEVwr.h";
+			path = "data_handling_plugins/bNEVwr.h";
+			refType = 4;
+		};
+		1836181756871D481A7661EB = {
+			isa = PBXFileReference;
+			name = "FirKernels.h";
+			path = "Filtering/FirKernels.h";
+			refType = 4;
+		};
+		3FC04DFABBF77DCFDAABB812 = {
+			isa = PBXFileReference;
+			name = "RTVTTimer.h";
+			path = "RTVTTimer.h";
+			refType = 4;
+		};
+		7B621655AE40869815772128 = {
+			isa = PBXFileReference;
+			name = "audiooutput.h";
+			path = "External-Code/audiooutput.h";
+			refType = 4;
+		};
+		A4A7DE3FAFC7CF4BA78343FB = {
+			isa = PBXFileReference;
+			name = "universalStructures.h";
+			path = "universalStructures.h";
+			refType = 4;
+		};
+		EC320FACCF03BF10B79E2718 = {
+			isa = PBXFileReference;
+			name = "rtvttriggermodel.h";
+			path = "rtvttriggermodel.h";
+			refType = 4;
+		};
+		CF0EE12355FD2D481ED032A1 = {
+			isa = PBXFileReference;
+			name = "rtvtcontrolwindow.h";
+			path = "rtvtcontrolwindow.h";
+			refType = 4;
+		};
+		F79C4C87283455F7C61DCB74 = {
+			isa = PBXFileReference;
+			name = "fftreal_wrapper.h";
+			path = "External-Code/fftreal_wrapper.h";
+			refType = 4;
+		};
+		619EA624903AC9549AB2CC04 = {
+			isa = PBXFileReference;
+			name = "utils.h";
+			path = "External-Code/utils.h";
+			refType = 4;
+		};
+		F8F001F4C36B22C321A9CCC7 = {
+			isa = PBXFileReference;
+			name = "rtvtplotwindow.h";
+			path = "rtvtplotwindow.h";
+			refType = 4;
+		};
+		3F5247062B0DFEEBFBEC0252 = {
+			isa = PBXFileReference;
+			name = "RTVT.pro";
+			path = "RTVT.pro";
+			refType = 4;
+		};
+		17DE1AAD2D2266AC2459C84D = {
+			isa = PBXFileReference;
+			name = "rtvthudwaveview.ui";
+			path = "HUD_Plugins/rtvthudwaveview.ui";
+			refType = 4;
+		};
+		55148C24DF1AC1D04F239267 = {
+			fileRef = "17DE1AAD2D2266AC2459C84D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FC007213899C52B6EDCC3162 = {
+			isa = PBXFileReference;
+			name = "rtvthudcontrollerview.ui";
+			path = "HUD_Plugins/rtvthudcontrollerview.ui";
+			refType = 4;
+		};
+		F00E30B6B7CFB98567E34164 = {
+			fileRef = "FC007213899C52B6EDCC3162";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		684EF27FDC750622C099949C = {
+			isa = PBXFileReference;
+			name = "rtvtcontrolwindow.ui";
+			path = "rtvtcontrolwindow.ui";
+			refType = 4;
+		};
+		EC7757AA2CEDDB0F2E64279D = {
+			fileRef = "684EF27FDC750622C099949C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3C8B517F771C6AE5FAE4BC34 = {
+			isa = PBXFileReference;
+			name = "rtvtplotwindow.ui";
+			path = "rtvtplotwindow.ui";
+			refType = 4;
+		};
+		418FBA116A2AFBB08032379F = {
+			fileRef = "3C8B517F771C6AE5FAE4BC34";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		883D7615C4D2DE3FA1218F12 = {
+			isa = PBXGroup;
+			children = (
+				"CE2FD53635540346CFA4F43D",
+				"86CE470B4AA83EED0DD5BBCE",
+				"3112E9BD6F0A80FB82EEC405",
+				"8300CA3C1FF4425798F15D68",
+				"76EEC80CD1C7DA8419888168",
+				"D9EFEF7F5271EFA6647F727E",
+				"AC9D2B5661F66AD5DD6F3589",
+				"464F2BC78F826151B1EDC566",
+				"118268ADF88EA7505207017E",
+				"A03C101F2C7E9E14F1C3CD6F",
+				"D912118289DAFE99C1A7061A",
+				"4173B3465233A2A3FC75B6E7",
+				"3FC04DFABBF77DCFDAABB812",
+				"3C0C00625A0EE5AE73B928FA",
+				"A4A7DE3FAFC7CF4BA78343FB",
+				"EC320FACCF03BF10B79E2718",
+				"CF0EE12355FD2D481ED032A1",
+				"F8F001F4C36B22C321A9CCC7");
+			name = "Headers";
+			refType = 4;
+		};
+		3C0C00625A0EE5AE73B928FA = {
+			isa = PBXGroup;
+			children = (
+				"7B621655AE40869815772128",
+				"F79C4C87283455F7C61DCB74",
+				"619EA624903AC9549AB2CC04");
+			name = "External-Code";
+			refType = 4;
+		};
+		4173B3465233A2A3FC75B6E7 = {
+			isa = PBXGroup;
+			children = (
+				"1836181756871D481A7661EB");
+			name = "Filtering";
+			refType = 4;
+		};
+		A03C101F2C7E9E14F1C3CD6F = {
+			isa = PBXGroup;
+			children = (
+				"F1808D34D00E04BF16A2675C",
+				"F397852D34C104E0934DBBC3");
+			name = "HUD_Plugins";
+			refType = 4;
+		};
+		D912118289DAFE99C1A7061A = {
+			isa = PBXGroup;
+			children = (
+				"2DF6427B31F3182D026C4916");
+			name = "data_handling_plugins";
+			refType = 4;
+		};
+		7166793B7E99E8D5620C789C = {
+			isa = PBXGroup;
+			children = (
+				"17DE1AAD2D2266AC2459C84D",
+				"FC007213899C52B6EDCC3162");
+			name = "HUD_Plugins";
+			refType = 4;
+		};
+		DC29B2D42FE4D41FA219E736 = {
+			isa = PBXGroup;
+			children = (
+				"C32D7DD88318DB5D44D85228",
+				"ECE5961416B52DB92CCAC37C",
+				"450492C84848F6051925C75E");
+			name = "External-Code";
+			refType = 4;
+		};
+		329B1C55FD513511181F4524 = {
+			isa = PBXGroup;
+			children = (
+				"D43C4118E40A25D8F019C0DA");
+			name = "Filtering";
+			refType = 4;
+		};
+		9D3A2A3969675C09C8A00A86 = {
+			isa = PBXGroup;
+			children = (
+				"42DABD6026D1DC5729BACD9C",
+				"1AC9355551ED694020BA33F9");
+			name = "HUD_Plugins";
+			refType = 4;
+		};
+		F8B7FF8C3F9566D8D6C0E3D7 = {
+			isa = PBXGroup;
+			children = (
+				"E603E2F4B2C40746C4012A4D");
+			name = "data_handling_plugins";
+			refType = 4;
+		};
+		FB61758D0F0FDA4BA867C3D5 = {
+			isa = PBXGroup;
+			children = (
+				"1FD7C53B55E17FCEB987B7CD",
+				"118FCBAABA162BA17933C789",
+				"D044592EB16801BA490DE645",
+				"5F19817DA3B90F9E77E4B9D7",
+				"14D6594A25905781581399B5",
+				"BB0E3EE38E32A51A9F16FCBE",
+				"31C273A3C91B023C2C360AA3",
+				"3275B6B5A353405B97D8B8CB",
+				"AF7CC05BF031F6FB55858585",
+				"9D3A2A3969675C09C8A00A86",
+				"F8B7FF8C3F9566D8D6C0E3D7",
+				"329B1C55FD513511181F4524",
+				"5D124C614AA3044FACBEA638",
+				"DC29B2D42FE4D41FA219E736",
+				"C6106AFEB2856CBC9A3B9E27",
+				"3772728577FF9508C0D34822",
+				"C4C77B636589AAACCD282C18");
+			name = "Sources";
+			refType = 4;
+		};
+		EEC299C65D5017EB9DD513B0 = {
+			isa = PBXGroup;
+			children = (
+				"7166793B7E99E8D5620C789C",
+				"684EF27FDC750622C099949C",
+				"3C8B517F771C6AE5FAE4BC34");
+			name = "Sources [UIC]";
+			refType = 4;
+		};
+		7CABE3C80E79AD2B307756D2 = {
+			isa = PBXGroup;
+			children = (
+				"3F5247062B0DFEEBFBEC0252");
+			name = "Sources [qmake]";
+			refType = 4;
+		};
+		46E892BBB6BB6952967E0561 = {
+			isa = PBXGroup;
+			children = (
+				"7FD1453529F07FD8539C3309",
+				"66C5DC4029D66C112B0287A5",
+				"8495E3E4B16A528F06CEFCFF",
+				"1D3D8797DD3776E0BCF9E3B8",
+				"3827A0BF3000EF9CFA3E2B9A",
+				"29A783A1F9515DE00A4B7211",
+				"617044E7ED1DBE42E1E3F5EA",
+				"7306B2D6123507CD7A1CD681",
+				"FFC1B1E6310F375C4A929B8C",
+				"2FB0781AD2F335849587EA77",
+				"0170401211CA3E348C0CE347",
+				"DB82B1CE7D5551AB5F579BE5",
+				"FCD2DCFADCA7BDAEB2CB1932",
+				"7469C1BE560D82289D1F3D1D",
+				"D0DC16242AA83209CF51C19E",
+				"B8F44F489C530D94B4A5BEB5");
+			name = "Temporary Sources";
+			refType = 4;
+		};
+		A0A52A2ADF7A1E2A99738674 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				"0588F9502B84E0C4AD1DAC09",
+				"2B093CA6F071B023A473CED0",
+				"5528915EAF4BEF0FE76940D1",
+				"B65297E19454ADB128EA6474",
+				"5C43AE1B666357205C104E8C",
+				"7D3AA3B721EA7EDE3B4B0F84",
+				"4CB363FB57CF8F54C134496B",
+				"3808E6F5849C3FA927DA272E",
+				"355EC0EB579172687ADE45FB",
+				"6C9F43A1582557CDBF40E4CE",
+				"C12B629735B184C3CFD2E0F9",
+				"DF5E80FDE90F1314C714AB93",
+				"29188EB9BCC75CA4EAA364BA",
+				"14838779B739073CAB655BE8",
+				"7D98B9EA8C51A4F27D999B4B",
+				"7DEAACC711D1494A4A417DC0",
+				"0FFF37CB21210F9A7CD5D4A2",
+				"F68BEE298E099629FE1A3811",
+				"BACD72FAE4BF5F2DDE5CBB6F",
+				"3DB1D1EAB143D8B6482BED43",
+				"4CC808111502D12AF8EF8CA7",
+				"09C8052ACB4CD25FD63D2A9E",
+				"FD6D027B556258DCFE0BEA4C",
+				"AD166D70846E13619A240FF1",
+				"75A56D33522CEEEAA90D17AE",
+				"1FC237E17D7EB15F5AF8F958",
+				"E8A3C3C719E086A2A4CE569E",
+				"6660D11FF73C8891B7B9C17E",
+				"8DA9F0372D89CA2652DB80B2",
+				"187271109309D2FFFE4C3DCD",
+				"83D025F49D75A54DC4707368",
+				"EEFD362BE6530803313EB20A");
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Preprocessors";
+			neededFileNames = (
+				"0588F9502B84E0C4AD1DAC09",
+				"2B093CA6F071B023A473CED0",
+				"5528915EAF4BEF0FE76940D1",
+				"B65297E19454ADB128EA6474",
+				"5C43AE1B666357205C104E8C",
+				"7D3AA3B721EA7EDE3B4B0F84",
+				"4CB363FB57CF8F54C134496B",
+				"3808E6F5849C3FA927DA272E",
+				"355EC0EB579172687ADE45FB",
+				"6C9F43A1582557CDBF40E4CE",
+				"C12B629735B184C3CFD2E0F9",
+				"DF5E80FDE90F1314C714AB93",
+				"29188EB9BCC75CA4EAA364BA",
+				"14838779B739073CAB655BE8",
+				"7D98B9EA8C51A4F27D999B4B",
+				"7DEAACC711D1494A4A417DC0",
+				"0FFF37CB21210F9A7CD5D4A2",
+				"F68BEE298E099629FE1A3811",
+				"BACD72FAE4BF5F2DDE5CBB6F",
+				"3DB1D1EAB143D8B6482BED43",
+				"4CC808111502D12AF8EF8CA7",
+				"09C8052ACB4CD25FD63D2A9E",
+				"FD6D027B556258DCFE0BEA4C",
+				"AD166D70846E13619A240FF1",
+				"75A56D33522CEEEAA90D17AE",
+				"1FC237E17D7EB15F5AF8F958",
+				"E8A3C3C719E086A2A4CE569E",
+				"6660D11FF73C8891B7B9C17E",
+				"8DA9F0372D89CA2652DB80B2",
+				"187271109309D2FFFE4C3DCD",
+				"83D025F49D75A54DC4707368",
+				"EEFD362BE6530803313EB20A");
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/daborton/Documents/MacOS_RTVT_Development\ -f\ \'RTVT.pbproj/qt_preprocess.mak\'";
+		};
+		C29B8785722055ED95EF7B57 = {
+			buildActionMask = 2147483647;
+			files = (
+				"0588F9502B84E0C4AD1DAC09",
+				"2B093CA6F071B023A473CED0",
+				"5528915EAF4BEF0FE76940D1",
+				"B65297E19454ADB128EA6474",
+				"5C43AE1B666357205C104E8C",
+				"7D3AA3B721EA7EDE3B4B0F84",
+				"4CB363FB57CF8F54C134496B",
+				"3808E6F5849C3FA927DA272E",
+				"355EC0EB579172687ADE45FB",
+				"6C9F43A1582557CDBF40E4CE",
+				"C12B629735B184C3CFD2E0F9",
+				"DF5E80FDE90F1314C714AB93",
+				"29188EB9BCC75CA4EAA364BA",
+				"14838779B739073CAB655BE8",
+				"7D98B9EA8C51A4F27D999B4B",
+				"7DEAACC711D1494A4A417DC0",
+				"0FFF37CB21210F9A7CD5D4A2",
+				"F68BEE298E099629FE1A3811",
+				"BACD72FAE4BF5F2DDE5CBB6F",
+				"3DB1D1EAB143D8B6482BED43",
+				"4CC808111502D12AF8EF8CA7",
+				"09C8052ACB4CD25FD63D2A9E",
+				"FD6D027B556258DCFE0BEA4C",
+				"AD166D70846E13619A240FF1",
+				"75A56D33522CEEEAA90D17AE",
+				"1FC237E17D7EB15F5AF8F958",
+				"E8A3C3C719E086A2A4CE569E",
+				"6660D11FF73C8891B7B9C17E",
+				"8DA9F0372D89CA2652DB80B2",
+				"187271109309D2FFFE4C3DCD",
+				"83D025F49D75A54DC4707368",
+				"EEFD362BE6530803313EB20A");
+			isa = PBXSourcesBuildPhase;
+			name = "Build Sources";
+		};
+		D68B4700C3FB2104CBCA5286 = {
+			isa = PBXFrameworkReference;
+			name = "qwt.framework";
+			path = "/Library/Frameworks/qwt.framework";
+			refType = 0;
+		};
+		C84751573E3A8336A063F607 = {
+			fileRef = "D68B4700C3FB2104CBCA5286";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4DDA83FF1D566B999F038492 = {
+			isa = PBXFrameworkReference;
+			name = "fftreal.framework";
+			path = "/Library/Frameworks/fftreal.framework";
+			refType = 0;
+		};
+		C5B933DFEE3FBE6A726035BC = {
+			fileRef = "4DDA83FF1D566B999F038492";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4956663D02F6681BA8B1E3FA = {
+			isa = PBXFrameworkReference;
+			name = "QtSvg.framework";
+			path = "/usr/local/Trolltech/Qt-4.7.3/lib/QtSvg.framework";
+			refType = 0;
+		};
+		DDA066E88588AA8F7741212C = {
+			fileRef = "4956663D02F6681BA8B1E3FA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EF34030FE9242F6DC1EA56E3 = {
+			isa = PBXFrameworkReference;
+			name = "QtGui.framework";
+			path = "/usr/local/Trolltech/Qt-4.7.3/lib/QtGui.framework";
+			refType = 0;
+		};
+		27FB658754F8316AF865E914 = {
+			fileRef = "EF34030FE9242F6DC1EA56E3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		09A37845C97FAD8139487D32 = {
+			isa = PBXFrameworkReference;
+			name = "QtCore.framework";
+			path = "/usr/local/Trolltech/Qt-4.7.3/lib/QtCore.framework";
+			refType = 0;
+		};
+		49238F43DDEAE2836D7EC337 = {
+			fileRef = "09A37845C97FAD8139487D32";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D54175F1EEDC21E4880C37BE = {
+			isa = PBXFrameworkReference;
+			name = "QtMultimedia.framework";
+			path = "/usr/local/Trolltech/Qt-4.7.3/lib/QtMultimedia.framework";
+			refType = 0;
+		};
+		00467075E70DDBCA1553D22F = {
+			fileRef = "D54175F1EEDC21E4880C37BE";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27AE7A480FD6C52FCA80FECD = {
+			isa = PBXFrameworkReference;
+			name = "ApplicationServices.framework";
+			path = "/System/Library/Frameworks/ApplicationServices.framework";
+			refType = 0;
+		};
+		F9E76E570E10AF14870553A7 = {
+			fileRef = "27AE7A480FD6C52FCA80FECD";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		5047022CEBDAD3272EE3C4D2 = {
+			isa = PBXFrameworkReference;
+			name = "CoreAudio.framework";
+			path = "/System/Library/Frameworks/CoreAudio.framework";
+			refType = 0;
+		};
+		6AFFA5CC440B7A45A7B1BFFC = {
+			fileRef = "5047022CEBDAD3272EE3C4D2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		5A5E07CEF4D0A51E8FE3D953 = {
+			isa = PBXFrameworkReference;
+			name = "AudioUnit.framework";
+			path = "/System/Library/Frameworks/AudioUnit.framework";
+			refType = 0;
+		};
+		7D24C4AAFE054CB4F844982B = {
+			fileRef = "5A5E07CEF4D0A51E8FE3D953";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DCDFF7D4DAE217C12A322FC8 = {
+			isa = PBXFrameworkReference;
+			name = "AudioToolbox.framework";
+			path = "/System/Library/Frameworks/AudioToolbox.framework";
+			refType = 0;
+		};
+		BE29FCEBE353C8375F034751 = {
+			fileRef = "DCDFF7D4DAE217C12A322FC8";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DAA74A63A21AB6715D239BE7 = {
+			isa = PBXFrameworkReference;
+			name = "QtXmlPatterns.framework";
+			path = "/usr/local/Trolltech/Qt-4.7.3/lib/QtXmlPatterns.framework";
+			refType = 0;
+		};
+		7504FDD5E044696AC77AFC58 = {
+			fileRef = "DAA74A63A21AB6715D239BE7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A954D4145CB42EE311ED0D26 = {
+			isa = PBXFrameworkReference;
+			name = "QtNetwork.framework";
+			path = "/usr/local/Trolltech/Qt-4.7.3/lib/QtNetwork.framework";
+			refType = 0;
+		};
+		258B3278242B33646AB5462F = {
+			fileRef = "A954D4145CB42EE311ED0D26";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FD5D6BFE940FC25FB5680D18 = {
+			isa = PBXFrameworkReference;
+			name = "QtXml.framework";
+			path = "/usr/local/Trolltech/Qt-4.7.3/lib/QtXml.framework";
+			refType = 0;
+		};
+		51D5BA5E71CCE5DBE7F96E64 = {
+			fileRef = "FD5D6BFE940FC25FB5680D18";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAA14D50540EB5681DB77BFE = {
+			isa = PBXFrameworkReference;
+			name = "QtOpenGL.framework";
+			path = "/usr/local/Trolltech/Qt-4.7.3/lib/QtOpenGL.framework";
+			refType = 0;
+		};
+		24F2F5C232FE076E0F4EE8C6 = {
+			fileRef = "FAA14D50540EB5681DB77BFE";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DA18A6831232F53228631AD1 = {
+			isa = PBXFrameworkReference;
+			name = "OpenGL.framework";
+			path = "/System/Library/Frameworks/OpenGL.framework";
+			refType = 0;
+		};
+		BCEF71E1EDFB18DA77DC750B = {
+			fileRef = "DA18A6831232F53228631AD1";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6766F86E49E9C8701C8E637 = {
+			isa = PBXFrameworkReference;
+			name = "AGL.framework";
+			path = "/System/Library/Frameworks/AGL.framework";
+			refType = 0;
+		};
+		0C6D4628EE0B0D1479A20551 = {
+			fileRef = "C6766F86E49E9C8701C8E637";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ED1E82605DD74B483AF3C982 = {
+			children = (
+				"D68B4700C3FB2104CBCA5286",
+				"4DDA83FF1D566B999F038492",
+				"4956663D02F6681BA8B1E3FA",
+				"EF34030FE9242F6DC1EA56E3",
+				"09A37845C97FAD8139487D32",
+				"D54175F1EEDC21E4880C37BE",
+				"27AE7A480FD6C52FCA80FECD",
+				"5047022CEBDAD3272EE3C4D2",
+				"5A5E07CEF4D0A51E8FE3D953",
+				"DCDFF7D4DAE217C12A322FC8",
+				"DAA74A63A21AB6715D239BE7",
+				"A954D4145CB42EE311ED0D26",
+				"FD5D6BFE940FC25FB5680D18",
+				"FAA14D50540EB5681DB77BFE",
+				"DA18A6831232F53228631AD1",
+				"C6766F86E49E9C8701C8E637");
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+		};
+		2A1043669E6E5A7426EA502A = {
+			buildActionMask = 2147483647;
+			files = (
+				"C84751573E3A8336A063F607",
+				"C5B933DFEE3FBE6A726035BC",
+				"DDA066E88588AA8F7741212C",
+				"27FB658754F8316AF865E914",
+				"49238F43DDEAE2836D7EC337",
+				"00467075E70DDBCA1553D22F",
+				"F9E76E570E10AF14870553A7",
+				"6AFFA5CC440B7A45A7B1BFFC",
+				"7D24C4AAFE054CB4F844982B",
+				"BE29FCEBE353C8375F034751",
+				"7504FDD5E044696AC77AFC58",
+				"258B3278242B33646AB5462F",
+				"51D5BA5E71CCE5DBE7F96E64",
+				"24F2F5C232FE076E0F4EE8C6",
+				"BCEF71E1EDFB18DA77DC750B",
+				"0C6D4628EE0B0D1479A20551");
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		3787F99312C85FF0073FD7BA = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			name = "Bundle Resources";
+		};
+		F6069D5A5DA8AA28EDB8B3C6 = {
+			name = "Project Copy";
+			buildActionMask = 2147483647;
+			dstPath = "/Users/daborton/Documents/MacOS_RTVT_Development";
+			dstSubfolderSpec = 0;
+			files = (
+"07E0DFA73EB56DCB9E28CDD9");
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E0DFA73EB56DCB9E28CDD9 = {
+			fileRef = "5BD510609F3C15F19BFABD18";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		05596AB53D8D521C69802C27 = {
+			children = (
+				"FB61758D0F0FDA4BA867C3D5",
+				"46E892BBB6BB6952967E0561",
+				"883D7615C4D2DE3FA1218F12",
+				"7CABE3C80E79AD2B307756D2",
+				"EEC299C65D5017EB9DD513B0",
+				"ED1E82605DD74B483AF3C982");
+			isa = PBXGroup;
+			name = "RTVT";
+			path = "";
+			refType = 4;
+		};
+		5BD510609F3C15F19BFABD18 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			path = "RTVT.app";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		068F80C7519D0528FB08E821 = {
+			children = (
+				"5BD510609F3C15F19BFABD18");
+			isa = PBXGroup;
+			name = "Products";
+			refType = 4;
+		};
+		8E6DB2809CB228F8FBD0E3CE = {
+			buildPhases = (
+				"D7BA7D76DAB5DD13389D6332",
+				"A0A52A2ADF7A1E2A99738674",
+				"F6069D5A5DA8AA28EDB8B3C6",
+				"C29B8785722055ED95EF7B57",
+				"2A1043669E6E5A7426EA502A",
+				"3787F99312C85FF0073FD7BA");
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Trolltech/Qt-4.7.3/lib/QtCore.framework/Versions/4/Headers",
+					"/usr/local/Trolltech/Qt-4.7.3/include/QtCore",
+					"/usr/local/Trolltech/Qt-4.7.3/lib/QtGui.framework/Versions/4/Headers",
+					"/usr/local/Trolltech/Qt-4.7.3/include/QtGui",
+					"/usr/local/Trolltech/Qt-4.7.3/lib/QtOpenGL.framework/Versions/4/Headers",
+					"/usr/local/Trolltech/Qt-4.7.3/include/QtOpenGL",
+					"/usr/local/Trolltech/Qt-4.7.3/lib/QtXml.framework/Versions/4/Headers",
+					"/usr/local/Trolltech/Qt-4.7.3/include/QtXml",
+					"/usr/local/Trolltech/Qt-4.7.3/lib/QtXmlPatterns.framework/Versions/4/Headers",
+					"/usr/local/Trolltech/Qt-4.7.3/include/QtXmlPatterns",
+					"/usr/local/Trolltech/Qt-4.7.3/lib/QtMultimedia.framework/Versions/4/Headers",
+					"/usr/local/Trolltech/Qt-4.7.3/include/QtMultimedia",
+					"/usr/local/Trolltech/Qt-4.7.3/include",
+					"/usr/local/Trolltech/Qt-4.7.3/include/qwt",
+					"/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers",
+					"/System/Library/Frameworks/AGL.framework/Headers",
+					".",
+					".",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Trolltech/Qt-4.7.3/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Trolltech/Qt-4.7.3/lib",
+					"/Library/Frameworks/",
+					"/usr/local/Trolltech/Qt-4.7.3/lib",
+					"/System/Library/Frameworks/");
+				OPTIMIZATION_CFLAGS = (
+					);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_XMLPATTERNS_LIB",
+					"-DQT_XML_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_XMLPATTERNS_LIB",
+					"-DQT_XML_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				LEXFLAGS = "";
+				YACCFLAGS = "-d";
+				OTHER_REZFLAGS = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				PREBINDING = NO;
+				INFOPLIST_FILE = "Info.plist";
+				BUILD_ROOT = "/Users/daborton/Documents/MacOS_RTVT_Development";
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/usr/local/Trolltech/Qt-4.7.3/lib",
+						"-F/usr/local/Trolltech/Qt-4.7.3/lib",
+						"-F/Library/Frameworks/fftreal.framework/Headers/",
+						"-F/Library/Frameworks/QtSvg.framework/",
+						"-L/usr/local/Trolltech/Qt-4.7.3/lib",
+						"-F/usr/local/Trolltech/Qt-4.7.3/lib");
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.4";
+				ARCHS = "x86_64";
+				WRAPPER_SUFFIX = "app";
+				PRODUCT_NAME = "RTVT";
+			};
+			conditionalBuildSettings = {
+			};
+			dependencies = (
+				);
+			productReference = "5BD510609F3C15F19BFABD18";
+			shouldUseHeadermap = 1;
+			isa = PBXApplicationTarget;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"0.9\">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+    <key>CFBundleGetInfoString</key>
+	<string>Created by Qt/QMake</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>RTVT</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.RTVT</string>
+	<key>NOTE</key>
+	<string>This file was generated by Qt/QMake.</string>
+</dict>
+</plist>
+";
+			name = "RTVT";
+			productName = "RTVT";
+			startupPath = "<<ProjectDirectory>>";
+		};
+		8D0921A599A626D1569D9498 = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+			};
+			isa = "PBXBuildStyle";
+			name = "Development";
+		};
+		4CFAD8B741C7FF5A47E1CF98 = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+			};
+			isa = "PBXBuildStyle";
+			name = "Deployment";
+		};
+		91B15E841AA80083484172DE = {
+			buildStyles = (
+				"8D0921A599A626D1569D9498");
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = "05596AB53D8D521C69802C27";
+			projectDirPath = "";
+			targets = (
+				"8E6DB2809CB228F8FBD0E3CE");
+		};
+	};
+	rootObject = "91B15E841AA80083484172DE";
+}
